@@ -1,0 +1,40 @@
+{
+  "name": "dateflow",
+  "version": "0.0.1",
+  "description": "A flexible and powerful date manipulation library for JavaScript and TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.3"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "datetime",
+    "manipulation",
+    "format",
+    "locale",
+    "timezone"
+  ],
+  "author": "MakkoyevYevgeniy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MakkoyevYevgeniy/dateflow.git"
+  },
+  "homepage": "https://github.com/MakkoyevYevgeniy/dateflow#readme",
+  "bugs": {
+    "url": "https://github.com/MakkoyevYevgeniy/dateflow/issues"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "private": false
+}
